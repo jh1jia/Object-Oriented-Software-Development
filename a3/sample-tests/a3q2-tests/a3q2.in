@@ -1,0 +1,14 @@
++ 1 + 2 + 3 + 4 + 5 + 1 + 6
+follow 1 2 follow 1 4 follow 1 5
+follow 2 1
+follow 6 1
+- 6
+- 7
+print 1
+follow 2 3
+follow 2 3
+follow 2 4
+unfollow 2 4
+follow 2 6
+follow 4 5 follow 5 3
+printall

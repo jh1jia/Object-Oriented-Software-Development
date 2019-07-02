@@ -1,0 +1,59 @@
+n a abcdefg
+l a 
+w a
+i b a
+n c new
+= b c
+w b
+t a c test
+w a
+s d a c
+w d
+e a
+p a c
+w a
+e b
+e c
+e d
+f d
+w d
+l d
+c d
+e d
+f d
+n d ""
+w d
+p a d
+w a
+s d d d
+w d
+e d
+e a
+f a
+n b a
+s b a b
+w b
+p b b
+w b
+t b b ce
+w b
+t b b 522\n
+w b
+f a
+= b a
+w a
+w b
+l a
+l b
+r a 
+	dog
+w   
+a
+r
+a
+  cat
+w
+   a
+e a
+e b
+q

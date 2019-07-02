@@ -1,0 +1,21 @@
+n a 12345_a
+i b a
+w b
+f c
+= c b
+w c
+n a ^^
+= c a
+w c
+r c **
+w c
+i c c
+w c
+= c c
+w c
+t c c NULL
+w c
+e a
+e b
+e c
+q

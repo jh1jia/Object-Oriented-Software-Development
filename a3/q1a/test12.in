@@ -1,0 +1,29 @@
+f a
+t a a ace
+w a
+f b
+s b a a
+w b
+s a b a
+w a
+f c
+s a c c
+w a
+t a a gg
+w a
+s a b c
+w a
+s a c b
+w a
+s a b b
+w a
+s a c b
+w a
+s a a a
+w a
+t a a a
+w a
+e a
+e b
+e c
+q

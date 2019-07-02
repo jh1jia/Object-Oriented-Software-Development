@@ -1,0 +1,27 @@
+User 1 has joined the social network
+User 2 has joined the social network
+User 3 has joined the social network
+User 4 has joined the social network
+User 5 has joined the social network
+User 1 already has an account
+User 6 has joined the social network
+User 1 is now following 2
+User 1 is now following 4
+User 1 is now following 5
+User 2 is now following 1
+User 6 is now following 1
+User 6 has deleted their account
+User 7 does not have an account
+User 1 is following 2,4,5
+User 2 is now following 3
+User 2 is already following 3
+User 2 is now following 4
+User 2 is no longer following 4
+User 6 does not have an account
+User 4 is now following 5
+User 5 is now following 3
+User 1 is following 2,4,5
+User 2 is following 1,3
+User 3 is following no one
+User 4 is following 5
+User 5 is following 3

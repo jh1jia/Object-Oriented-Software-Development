@@ -1,0 +1,16 @@
+n a abc
+= a a
+w a
+n b abc
+= a b
+w a
+w b
+i a a
+w a
+i a b
+w a
+w b
+e a
+e b
+e c
+q

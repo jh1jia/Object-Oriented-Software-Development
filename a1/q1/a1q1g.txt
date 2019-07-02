@@ -1,0 +1,1 @@
+head -15 myfile.txt | tail -6

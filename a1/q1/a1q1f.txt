@@ -1,0 +1,1 @@
+egrep '^#include +\"[a-zA-Z]+\.[a-zA-Z]+\"( *)?$' program.c | head -10

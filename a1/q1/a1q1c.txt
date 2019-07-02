@@ -1,0 +1,1 @@
+egrep -ci 'student\.cs\.uwaterloo\.ca' myfile.txt
