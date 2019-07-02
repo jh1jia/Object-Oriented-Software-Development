@@ -1,0 +1,48 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+     echo "Incorrect number of command line arguments" 1>&2
+     exit 1
+fi
+
+for i in `cat "$1"`; do
+if [ ! -e "${i}.in" ]; then
+     echo "${i}.in file does not exist!" 1>&2
+     exit 1
+elif [ ! -e "${i}.out" ]; then
+     echo "${i}.out file does not exist!" 1>&2
+     exit 1
+elif [ ! -r "${i}.in" ]; then
+     echo "${i}.in file is unreadable!" 1>&2
+     exit 1
+elif [ ! -r "${i}.out" ]; then
+     echo "${i}.out file is unreadable!" 1>&2
+     exit 1
+fi
+
+tmp=`mktemp /tmp/tp.XXXX`
+tmpdiff=`mktemp /tmp/diff.XXXX`
+
+if [ -e "${i}.args" ]; then
+     $2 `cat "${i}.args"` < "${i}.in" > "$tmp"
+else $2 < "${i}.in" > "$tmp"
+fi
+
+diff "$tmp" "${i}.out" > $tmpdiff
+
+if [ $? -ne 0 ]; then
+   echo Test failed: "${i}"
+   echo Input:
+   cat "${i}.in"
+   echo Expected:
+   cat "${i}.out"
+   echo Actual:
+   cat "${tmp}"
+fi
+
+rm "$tmp"
+rm "$tmpdiff"
+
+done
+
+
