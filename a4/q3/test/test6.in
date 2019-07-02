@@ -1,0 +1,2 @@
+stdin dropfirst 1 dropfirst 2 count l doublewords doublewords allcaps
+Hello World

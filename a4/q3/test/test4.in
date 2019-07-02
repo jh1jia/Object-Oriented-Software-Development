@@ -1,0 +1,2 @@
+stdin dropfirst 3 count 1 doublewords doublewords count 1 count 2 allcaps
+Hello Worlds

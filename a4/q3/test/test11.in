@@ -1,0 +1,3 @@
+stdin dropfirst 3 dropfirst 3 allcaps allcaps count e
+dropfirst 989 333 count 2 doublewords
+sample.txt allcaps count E a.txt conut.txt
