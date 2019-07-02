@@ -1,6 +1,0 @@
-#!/bin/bash
-
-cd /u5/jh2jia/cs246/1159
-
-git pull
-
